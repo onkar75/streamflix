@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --card-bg: #ffffff;
+  --border: #e5e5e5;
+}
+
+[data-theme='dark'] {
+  --bg: #0f0f0f;
+  --text: #f5f5f5;
+  --card-bg: #1a1a1a;
+  --border: #2a2a2a;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}

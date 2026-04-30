@@ -1,0 +1,30 @@
+<svg
+  width="140"
+  height="28"
+  viewBox="0 0 140 28"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Play icon -->
+  <path
+    d="M6 4L22 14L6 24V4Z"
+    fill="rgb(217 76 62)"
+    stroke="rgba(0,0,0,0.35)"
+    stroke-width="1"
+  />
+
+  <!-- StreamFlix text -->
+  <text
+    x="32"
+    y="20"
+    font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
+    font-size="20"
+    font-weight="700"
+    letter-spacing="0.5"
+    fill="rgb(217 76 62)"
+    stroke="rgba(0,0,0,0.35)"
+    stroke-width="0.6"
+    paint-order="stroke fill"
+  >
+    StreamFlix
+  </text>
+</svg>
